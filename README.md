@@ -16,7 +16,7 @@
 ### Καταγραφή βασικών χαρακτηριστικών συστήματος στο starter_se
 
 
-### Εύρεση στοιχείων για  default υποσύστημα μνήμης από αρχείο config.ini
+### Εύρεση στοιχείων για default υποσύστημα μνήμης από αρχείο config.ini
 
 Από [system.cpu.dcache] size 64KB 2-way-associative
 ```python
