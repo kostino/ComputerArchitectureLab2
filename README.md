@@ -12,10 +12,6 @@
   c) Αλλαγή παραμέτρων CPU, memory στο ίδιο μοντέλο και σύγκριση αποτελεσμάτων  
 4. [Κριτική Εργασίας](https://github.com/kostino/ComputerArchitectureLab2#Κριτική-εργασίας)  
 
-
-### Καταγραφή αποτελεσμάτων benchmarks για default τιμές
-
-
 ### Εύρεση στοιχείων για default υποσύστημα μνήμης από αρχείο config.ini
 
 Από [system.cpu.dcache] **L1 Data cache** : size 64KB 2-way-associative
@@ -39,6 +35,7 @@ cache_line_size=64
 ```
 
 ### Καταγραφή αποτελεσμάτων benchmarks για default τιμές
+![Time](https://github.com/kostino/ComputerArchitectureLab2/blob/master/step%201/Default%202GHz/images/time.png?raw=true)
 
 ### Διαφορετικά μοντέλα in-order cpu στον gem-5
 
