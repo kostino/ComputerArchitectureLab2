@@ -13,7 +13,7 @@
 4. [Κριτική Εργασίας](https://github.com/kostino/ComputerArchitectureLab2#Κριτική-εργασίας)  
 
 
-### Καταγραφή βασικών χαρακτηριστικών συστήματος στο starter_se
+### Καταγραφή αποτελεσμάτων benchmarks για default τιμές
 
 
 ### Εύρεση στοιχείων για default υποσύστημα μνήμης από αρχείο config.ini
@@ -33,7 +33,7 @@ assoc=2
 size=2097152
 assoc=8
 ```
-Από [system] **cache line size** : 64B
+Από [system] **scache line size** : 64B
 ```python
 cache_line_size=64
 ```
