@@ -5,7 +5,7 @@
 
 ### Περιεχόμενα
 1. [Καταγραφή βασικών χαρακτηριστικών συστήματος στο starter_se](https://github.com/kostino/ComputerArchitectureLab2#Καταγραφή-βασικών-χαρακτηριστικών-συστήματος-στο-starter_se)
-2. [Επαλήθευση ερ.1 από αρχεία config.ini, config.json](https://github.com/kostino/ComputerArchitectureLab2#επαλήθευση-ερ1-από-αρχεία-configini-configjson)
+2. [Επαλήθευση ερ.1 από αρχεία config.ini, config.json](https://github.com/kostino/ComputerArchitectureLab2#Εύρεση στοιχείων για  default υποσύστημα μνήμης από αρχείο config.ini)
 3. [Διαφορετικά μοντέλα in-order cpu στον gem-5 ](https://github.com/kostino/ComputerArchitectureLab2#διαφορετικά-μοντέλα-in-order-cpu-στον-gem-5) και [benchmarks σε δικό μας πρόγραμμα](https://github.com/kostino/ComputerArchitectureLab2#Benchmarks-σε-δικό-μας-πρόγραμμα-σε-timingsimplecpu-και-minorcpu)  
   a) Εκτέλεση προγράμματος σε TimingSimpleCPU , MinorCPU και σύγκριση αποτελεσμάτων  
   b) Ερμηνεία των αποτελεσμάτων , βάσει των διαφορών των μοντέλων  
@@ -16,21 +16,24 @@
 ### Καταγραφή βασικών χαρακτηριστικών συστήματος στο starter_se
 
 
-### Επαλήθευση ερ.1 από αρχεία config.ini, config.json
+### Εύρεση στοιχείων για  default υποσύστημα μνήμης από αρχείο config.ini
 
+Από [system.cpu.dcache] size 64KB 2-way-associative
 ```python
-type=MinorCPU
+size=65536
+assoc=2
 ```
-
+Από [system.cpu.icache] size 32KB 2-way-associative
 ```python
-clock=250
+size=32768
+assoc=2
 ```
-
+Από [system.l2] size 2MB 8-way-associative
 ```python
-mem_ranges=0:2147483647
-memories=system.mem_ctrls0 system.mem_ctrls1
+size=2097152
+assoc=8
 ```
-
+Από [system] cache line size 64B
 ```python
 cache_line_size=64
 ```
