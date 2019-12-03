@@ -18,22 +18,22 @@
 
 ### Εύρεση στοιχείων για default υποσύστημα μνήμης από αρχείο config.ini
 
-Από [system.cpu.dcache] size 64KB 2-way-associative
+Από [system.cpu.dcache] **L1 Data cache** : size 64KB 2-way-associative
 ```python
 size=65536
 assoc=2
 ```
-Από [system.cpu.icache] size 32KB 2-way-associative
+Από [system.cpu.icache] **L1 Instruction cache** : size 32KB 2-way-associative
 ```python
 size=32768
 assoc=2
 ```
-Από [system.l2] size 2MB 8-way-associative
+Από [system.l2]**L2 cache** : size 2MB 8-way-associative
 ```python
 size=2097152
 assoc=8
 ```
-Από [system] cache line size 64B
+Από [system] **cache line size** : 64B
 ```python
 cache_line_size=64
 ```
