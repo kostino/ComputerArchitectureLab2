@@ -6,7 +6,7 @@
 ### Περιεχόμενα
 1. [Καταγραφή αποτελεσμάτων benchmarks για default τιμές](https://github.com/kostino/ComputerArchitectureLab2#καταγραφή-αποτελεσμάτων-benchmarks-για-default-τιμές)
 2. [Εύρεση στοιχείων για  default υποσύστημα μνήμης από αρχείο config.ini](https://github.com/kostino/ComputerArchitectureLab2#Εύρεση-στοιχείων-για-default-υποσύστημα-μνήμης-από-αρχείο-configini)
-3. [Αλλαγή ρολογιού στα 1GHz και σύγκριση χρόνου εκτέλεσης](https://github.com/kostino/ComputerArchitectureLab2#διαφορετικά-μοντέλα-in-order-cpu-στον-gem-5)  
+3. [Αλλαγή ρολογιού στα 1GHz και σύγκριση χρόνου εκτέλεσης](https://github.com/kostino/ComputerArchitectureLab2#αλλαγή-ρολογιού-στα-1ghz-και-σύγκριση-χρόνου-εκτέλεσης)  
 4. [Κριτική Εργασίας](https://github.com/kostino/ComputerArchitectureLab2#Κριτική-εργασίας)  
 
 ### Εύρεση στοιχείων για default υποσύστημα μνήμης από αρχείο config.ini
@@ -21,12 +21,12 @@ assoc=2
 size=32768
 assoc=2
 ```
-Από [system.l2]**L2 cache** : size 2MB 8-way-associative
+Από [system.l2] **L2 cache** : size 2MB 8-way-associative
 ```python
 size=2097152
 assoc=8
 ```
-Από [system] **scache line size** : 64B
+Από [system] **cache line size** : 64B
 ```python
 cache_line_size=64
 ```
