@@ -38,23 +38,8 @@ cache_line_size=64
 ![Dcache](https://github.com/kostino/ComputerArchitectureLab2/blob/master/step%201/Default%202GHz/images/dcache.png?raw=true)
 ![L2](https://github.com/kostino/ComputerArchitectureLab2/blob/master/step%201/Default%202GHz/images/l2.png?raw=true)
 
-### Αλλαγή ρολογιού στα 1GHz και σύγκριση χρόνου εκτέλεσης
-
-###  Benchmarks σε δικό μας πρόγραμμα σε TimingSimpleCPU και MinorCPU
-
-
-### Αλλαγή παραμέτρων CPU , memory και ερμηνεία αποτελεσμάτων
-
 ### Κριτική εργασίας
 
-```zsh
-$ brew install gcc-7
-$ export PATH=/usr/local/bin:$PATH
-$ cd /usr/local/bin
-$ ln -s  gcc-7  gcc
-
-```
 
 ### Πηγές
-* [Gem5 Documentation](http://gem5.org/Main_Page)  
-* [The Arm Research Starter Kit: System Modeling using gem5](https://github.com/arm-university/arm-gem5-rsk/blob/master/gem5_rsk.pdf)
+* 
