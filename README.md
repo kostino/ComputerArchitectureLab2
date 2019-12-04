@@ -55,6 +55,8 @@ cache_line_size=64
 | Χρόνος εκτέλεσης στα 2GHz(ms) |  83.982 |  64.955 |  59.396 | 513.528 | 174.671 |
 | Χρόνος εκτέλεσης στα 1GHz(ms) | 161.025 | 127.942 | 118.530 | 704.056 | 262.327 |
 | Επιτάχυνση από 1 σε 2 GHz(%)  | 91.7    | 96.9    | 99.5    | 37.1    | 50.1    |
+
+![1G](https://github.com/kostino/ComputerArchitectureLab2/blob/master/step%201/Default%202GHz/images/1g.png?raw=true)
 ### Κριτική εργασίας
 
 
