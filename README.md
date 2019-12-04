@@ -38,8 +38,10 @@ cache_line_size=64
 ![Dcache](https://github.com/kostino/ComputerArchitectureLab2/blob/master/step%201/Default%202GHz/images/dcache.png?raw=true)
 ![L2](https://github.com/kostino/ComputerArchitectureLab2/blob/master/step%201/Default%202GHz/images/l2.png?raw=true)
 
+### Αλλαγή ρολογιού στα 1GHz και σύγκριση χρόνου εκτέλεσης
+
 ### Κριτική εργασίας
 
 
 ### Πηγές
-* 
+*
