@@ -102,7 +102,7 @@ cache_line_size=64
 Άρα τελικά η συνάρτηση στην οποία καταλήγουμε είναι η εξής :  
 ![1G](https://github.com/kostino/ComputerArchitectureLab2/blob/master/latex/07a328c17ba8c43b960ac104085c6f97.png?raw=true)
 
-Με αυτή τη συνάρτηση Βέλτιστες προδιαγραφές κόστους-απόδοσης για κάθε benchmark:
+Με αυτή τη συνάρτηση Βέλτιστες προδιαγραφές κόστους-απόδοσης για κάθε benchmark:  
 **Για το bzip:**
 * L1 icache size :32 kB
 * L1 icache associativity : 2-way
