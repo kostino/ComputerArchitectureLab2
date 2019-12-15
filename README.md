@@ -57,6 +57,11 @@ cache_line_size=64
 | Επιτάχυνση από 1 σε 2 GHz(%)  | 91.7    | 96.9    | 99.5    | 37.1    | 50.1    |
 
 ![1G](https://github.com/kostino/ComputerArchitectureLab2/blob/master/step%201/Default%202GHz/images/1g.png?raw=true)
+
+### Αλλαγή Μεταβλητών και benchmarks
+#### Αλλαγή μεγέθους L1 icache 
+![1G](https://github.com/kostino/ComputerArchitectureLab2/blob/master/bench%20images/isize.png?raw=true)
+
 ### Κριτική εργασίας
 
 
