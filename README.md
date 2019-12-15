@@ -102,6 +102,51 @@ cache_line_size=64
 Άρα τελικά η συνάρτηση στην οποία καταλήγουμε είναι η εξής :  
 ![1G](https://github.com/kostino/ComputerArchitectureLab2/blob/master/latex/07a328c17ba8c43b960ac104085c6f97.png?raw=true)
 
+Με αυτή τη συνάρτηση Βέλτιστες προδιαγραφές κόστους-απόδοσης για κάθε benchmark:
+**Για το bzip:**
+* L1 icache size :32 kB
+* L1 icache associativity : 2-way
+* L1 dcache size :32 kB
+* L1 dcache associativity :2-way
+* L2 cache size :1 MB
+* L2 cache associativity :8-way
+* Cache line size :128 B
+
+**Για το mcf:**
+* L1 icache size :32 kB
+* L1 icache associativity : 4-way
+* L1 dcache size :32 kB
+* L1 dcache associativity :2-way
+* L2 cache size :1 MB
+* L2 cache associativity :8-way
+* Cache line size :64 B
+
+**Για το hmmer:**
+* L1 icache size :32 kB
+* L1 icache associativity : 2-way
+* L1 dcache size :32 kB
+* L1 dcache associativity :2-way
+* L2 cache size :1 MB
+* L2 cache associativity :8-way
+* Cache line size :128 B
+
+**Για το sjeng:**
+* L1 icache size :32 kB
+* L1 icache associativity : 2-way
+* L1 dcache size :32 kB
+* L1 dcache associativity :2-way
+* L2 cache size :1 MB
+* L2 cache associativity :8-way
+* Cache line size :128 B
+
+**Για το libm:**
+* L1 icache size :32 kB
+* L1 icache associativity : 2-way
+* L1 dcache size :32 kB
+* L1 dcache associativity :2-way
+* L2 cache size :1 MB
+* L2 cache associativity :8-way
+* Cache line size :128 B
 ### Κριτική εργασίας
 
 
