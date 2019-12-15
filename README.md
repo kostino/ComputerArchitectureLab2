@@ -75,6 +75,10 @@ cache_line_size=64
 Περιμένουμε ποιοτικά ανάλογα αποτελέσματα με αυτά από την αύξηση του μεγέθους της icache για το mcf αλλά αύξηση του CPI για τα υπόλοιπα
 ![1G](https://github.com/kostino/ComputerArchitectureLab2/blob/master/bench%20images/ia.png?raw=true)
 Πράγματι παρατηρείται ανάλογη(ποιοτικά και **ποσοτικά**) επιτάχυνση για το mcf με αυτήν από την αύξηση μεγέθους , αποτέλεσμα πολύ σημαντικό για τις σχεδιαστικές μας αποφάσεις αφού η αύξηση του associativity είναι πιο φθηνή διαδικασία από την αύξηση του μεγέθους της μνήμης. Βέβαια παρατηρείται ελάχιστη αύξηση του CPI για τα άλλα benchmarks αφού η αύξηση του associativity σαν διαδικασία αυξάνει την πολυπλοκότητα και το hit-time για την icache.
+#### Αλλαγή μεγέθους, associativity L1 dcache 
+![1G](https://github.com/kostino/ComputerArchitectureLab2/blob/master/bench%20images/dsize.png?raw=true)
+![1G](https://github.com/kostino/ComputerArchitectureLab2/blob/master/bench%20images/da.png?raw=true)
+Με την αλλαγή στο μέγεθος και το associativity βλέπω επιτάχυνση μόλις πάνω από 1% στο bzip στο οποίο μειώνεται το miss-rate στην dcache. Στα άλλα benchmarks δεν βλέπω καμία αισθητή διαφορά
 ### Κριτική εργασίας
 
 
