@@ -58,10 +58,19 @@ cache_line_size=64
 
 ![1G](https://github.com/kostino/ComputerArchitectureLab2/blob/master/step%201/Default%202GHz/images/1g.png?raw=true)
 
-### Αλλαγή Μεταβλητών και benchmarks
+### Αλλαγή παραμέτρων και benchmarks
+Αλλάζω τιμές των παραμέτρων και παρατηρώ την αλλαγή στην απόδοση του προγράμματος(μέσω της αλλαγής των CPI):  
+* L1 icache size
+* L1 icache associativity
+* L1 dcache size
+* L1 dcache associativity
+* L2 cache size
+* L2 cache associativity
+* Cache line size
 #### Αλλαγή μεγέθους L1 icache 
+Όλα τα benchmarks εκτός από το mcf είχαν αρχικά πολύ χαμηλό L1 icache miss rate οπότε περιμένουμε να υπάρχει ουσιαστική αλλαγή μόνο στην απόδοση του mcf
 ![1G](https://github.com/kostino/ComputerArchitectureLab2/blob/master/bench%20images/isize.png?raw=true)
-
+Πράγματι παρατηρείται 10% επιτάχυνση στην περίπτωση του mcf ενώ στα υπόλοιπα η αλλαγή δεν είναι καθόλου σημαντική. Η παρατήρηση αυτή μπορεί να εξηγηθεί στην περίπτωση που το mcf περιέχει ένα πολύ μεγάλο for loop ,που επαναλαμβάνεται πολλές φορές, το οποίο δεν χωρούσε να φορτωθεί ολόκληρο στην icache και με το που αυξήθηκε το μέγεθος αυτής χωράει. Πράγματι παρατηρώ πλέον πολύ χαμηλό icache miss rate και στο mcf, αντίστοιχο με τα άλλα benchmarks.
 ### Κριτική εργασίας
 
 
