@@ -151,4 +151,5 @@ cache_line_size=64
 
 
 ### Πηγές
-*
+* [Computer Architecture, a quantitative approach](http://uni-site.ir/khuelec/wp-content/uploads/Computer-Architecture-A-Quantitative-Approach.pdf)
+* 
