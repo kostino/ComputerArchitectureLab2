@@ -78,7 +78,13 @@ cache_line_size=64
 #### Αλλαγή μεγέθους, associativity L1 dcache 
 ![1G](https://github.com/kostino/ComputerArchitectureLab2/blob/master/bench%20images/dsize.png?raw=true)
 ![1G](https://github.com/kostino/ComputerArchitectureLab2/blob/master/bench%20images/da.png?raw=true)
-Με την αλλαγή στο μέγεθος και το associativity βλέπω επιτάχυνση μόλις πάνω από 1% στο bzip στο οποίο μειώνεται το miss-rate στην dcache. Στα άλλα benchmarks δεν βλέπω καμία αισθητή διαφορά
+Με την αλλαγή στο μέγεθος και το associativity βλέπω επιτάχυνση μόλις πάνω από 1% στο bzip στο οποίο μειώνεται το miss-rate στην dcache. Στα άλλα benchmarks δεν βλέπω καμία αισθητή διαφορά.
+#### Αλλαγή μεγέθους L2 cache 
+![1G](https://github.com/kostino/ComputerArchitectureLab2/blob/master/bench%20images/l2size.png?raw=true)
+Με την αλλαγή στο μέγεθος της L2 cache βλέπω πάλι επιτάχυνση ~1.7% στο bzip και ταυτόχρονα μείωση του miss rate στην L2 του bzip ενώ στα υπόλοιπα benchmarks πάλι δεν βλέπω κάποια αισθητή διαφορά.
+#### Αλλαγή associativity L2 cache 
+![1G](https://github.com/kostino/ComputerArchitectureLab2/blob/master/bench%20images/l2a.png?raw=true)
+Με την αύξηση του associativity της L2 σε 16-way η υλοποίηση πλέον είναι πολύ πολύπλοκη οπότε έχω **επιβράδυνση** σε όλα τα benchmarks. Ξεκάθαρα δεν αξίζει η αύξηση του associativity πάνω από 8-way.
 ### Κριτική εργασίας
 
 
