@@ -85,6 +85,9 @@ cache_line_size=64
 #### Αλλαγή associativity L2 cache 
 ![1G](https://github.com/kostino/ComputerArchitectureLab2/blob/master/bench%20images/l2a.png?raw=true)
 Με την αύξηση του associativity της L2 σε 16-way η υλοποίηση πλέον είναι πολύ πολύπλοκη οπότε έχω **επιβράδυνση** σε όλα τα benchmarks. Ξεκάθαρα δεν αξίζει η αύξηση του associativity πάνω από 8-way.
+#### Αλλαγή μεγέθους cache-line 
+![1G](https://github.com/kostino/ComputerArchitectureLab2/blob/master/bench%20images/ls.png?raw=true)
+Με την αλλαγή στο μέγεθος γραμμής cache βλέπω πολύ μεγάλη επιτάχυνση στα benchmarks που είχαν πολύ μεγάλο L2 miss-rate(sjeng, libm) καθώς πλέον αυξάνω πολύ την τοπικότητα στην υλοποίηση μου και σε benchmarks που ασχολούνται με πολύ μεγάλα δεδομένα θα έχω πολύ λιγότερα compulsory misses. Η τεράστια αλλαγή στην απόδοση των 2 benchmarks μας κάνει να πιστεύουμε ότι αυτά έχουν πολύ μεγάλους πίνακες με στοιχεία που χρησιμοποιούνται πολύ λίγες φορές, δηλαδή έχουμε πολύ περισσότερα compulsory από ότι conflict και capacity misses. Αυτό εξηγεί ως ένα βαθμό και το αρχικά πολύ μεγάλο miss rate στην L2 για τα 2 αυτά benchmarks.
 ### Κριτική εργασίας
 
 
